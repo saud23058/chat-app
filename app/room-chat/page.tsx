@@ -75,7 +75,7 @@ const RoomChat = () => {
         <div className="w-[590px] h-[400px] bg-white text-black rounded-lg p-4 overflow-auto border border-gray-300">
           {messages.map((msg, index) => (
             <p key={index} className="my-2 text-black font-medium">
-              <strong>{username}:</strong> {msg.message}
+              <strong>{msg.user}:</strong> {msg.message}
             </p>
           ))}
         </div>

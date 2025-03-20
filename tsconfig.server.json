@@ -1,0 +1,15 @@
+{
+  "extends":"./tsconfig.json",
+  "compilerOptions": {
+    "target": "ES2017",
+    "strict": true,
+    "noEmit": true,
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "isolatedModules": false,
+  },
+  "include": ["server.mts"],
+  
+}
